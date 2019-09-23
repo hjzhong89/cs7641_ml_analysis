@@ -88,18 +88,18 @@ def boosting():
 
 
 def svc():
-    out_dir = base_dir + '/svc_1'
-    clf = SVC(random_state=1, C=1, gamma='scale')
+    out_dir = base_dir + '/svc_rbf'
+    clf = SVC(random_state=1, kernel='rbf', gamma='scale')
     clf_test_frame.analyze(clf, X_train, y_train, X_test, y_test, out_dir=out_dir)
 
-    out_dir = base_dir + '/svc_001'
-    clf = SVC(random_state=1, C=.001, gamma='scale')
+    out_dir = base_dir + '/svc_sigmoid'
+    clf = SVC(random_state=1, kernel='sigmoid', gamma='scale')
     clf_test_frame.analyze(clf, X_train, y_train, X_test, y_test, out_dir=out_dir)
 
-    out_dir = base_dir + '/svc_10'
-    clf = SVC(random_state=1, C=10, gamma='scale')
+    out_dir = base_dir + '/svc_poly'
+    clf = SVC(random_state=1, kernel='poly', gamma='scale')
     clf_test_frame.analyze(clf, X_train, y_train, X_test, y_test, out_dir=out_dir)
 
 
 # NOTE: Change the line below to call noe of the above methods to run the analysis on the dataset
-decision_tree()
+svc()
