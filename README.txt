@@ -1,3 +1,9 @@
+Pre-requisites:
+1. Install git
+2. Clone this repository
+    i. git clone https://github.gatech.edu/hzhong41/cs7641_assignment1.git
+
+
 To Run Analysis:
 1. Install miniconda (follow instructions here: https://docs.conda.io/en/latest/miniconda.html)
 2. Create the environment in terminal using the below command. Make sure that your current directory in terminal is the root folder for this project:
