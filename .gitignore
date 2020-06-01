@@ -2,3 +2,4 @@
 venv/*
 *.zip
 __pycache__/*
+out/*

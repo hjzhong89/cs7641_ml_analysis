@@ -102,4 +102,4 @@ def svc():
 
 
 # NOTE: Change the line below to call noe of the above methods to run the analysis on the dataset
-svc()
+decision_tree()

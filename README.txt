@@ -1,10 +1,16 @@
-Pre-requisites:
-1. Install git
-2. Clone this repository
-    i. git clone https://github.gatech.edu/hzhong41/cs7641_assignment1.git
+CS 7641: Machine Learning Model Analysis
+===
+
+This project was done as a part of CS7641 Coursework. 5 machine learning models
+-- Decision Boosting, Ensemble Boosting, K-Nearest Neighbors, Neural Networks,
+and Support Vector Machines -- were fitted against gesture data and pulsar data
+from Kaggle. The objective was to measure the performance of the different 
+models and do a comparison.
 
 
-To Run Analysis:
+To Run Analysis
+---
+
 1. Install miniconda (follow instructions here: https://docs.conda.io/en/latest/miniconda.html)
 2. Create the environment in terminal using the below command. Make sure that your current directory in terminal is the root folder for this project:
     i. conda env create -f environment.yml
